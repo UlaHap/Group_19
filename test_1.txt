@@ -39,3 +39,4 @@ touch 1.txt 2.txt 3.txt 4.json 5.json;
 mkdir p1 p2 p3;
 ls p1;
 mv 1.txt p1
+
