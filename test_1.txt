@@ -1,0 +1,41 @@
+1) Посмотреть где я -  pwd
+2) Создать папку -  mkdir papaka_1
+3) Зайти в папку -  cd papka_1
+4) Создать три папки -  mkdir papka1.1
+                     -  mkadir papka 1.2
+                     -  mkadir papka 1.3
+5) Зайти в папку - cd papka1.1
+6) Создать пять файлов -  touch gora.txt
+                       -  touch linux.txt
+                       -  touch uladzislau.txt
+                       -  touch papa.json
+                       -  touch mama.json
+7) Создать три папки -  mkdir papka1.1.1
+                     -  mkdir papka1.1.2
+                     -  mkdir papka1.1.3
+8) Вывести список содержимого папки -  ls
+9) Открыть txt файл - nano gora.txt
+10) Написал что-то
+11) ctrl+O( записать ) cntrl+x ( выйти )
+12) Выйти из папки на уровень выше - cd ..
+13) Переместить двай файла в любую другую папку -  mv /home/vlad/papka_1/papka1.1/gora.txt /home/vlad/papka_1/papka1.1/papka1.1.1
+                                               -  mv /home/vlad/papka_1/papka1.1/papa.json /home/vlad/papka_1/papka1.1/papka1.1.1
+14) Скопировать два файла в любую другую папку -  scp home/vlad/papka_1/papka1.1/velo.json /home/vlad/papka_1/papka1.1/papka1.1.1
+                                               -  scp home/vlad/papka_1/papka1.1/Uladislau.json /home/vlad/papka_1/papka1.1/papka1.1.1
+15) Найти файл по имени - find . -name velo.json
+16) Посмотреть содержимое в реальном времени -  grep -i "mama" txx.txt
+17) Вывести несколько первых строк из текстового файла - head -n2 txx.txt
+18) Вывести несколько последних строк из текстового файла - tail -n2 /home/vlad/papka_1/papka1.2/txx.txt
+19) Посмотреть содержимое длинного файла -  less txx.txt
+20) Вывести дату и время - date
+21) Отправить HTTP запрос - curl https://api.quarantine.country/api/v1/regions
+22) Написать крипт который выполнит пункты 3-8,13
+#!/bin/bash
+touch myscript
+cd myscript
+mkdir te.1 te.2 te.3;
+cd te.1;
+touch 1.txt 2.txt 3.txt 4.json 5.json;
+mkdir p1 p2 p3;
+ls p1;
+mv 1.txt p1
