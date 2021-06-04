@@ -1,5 +1,5 @@
 1) Посмотреть где я -  pwd
-2) Создать папку -  mkdir papaka_1
+2) Создать папку -  mkdir papka_1
 3) Зайти в папку -  cd papka_1
 4) Создать три папки -  mkdir papka1.1
                      -  mkadir papka 1.2
